@@ -10,7 +10,6 @@ class MainActivity : AppCompatActivity() {
     private lateinit var btnFirst: Button
     private lateinit var btnSecond: Button
     private lateinit var btnThird: Button
-    private lateinit var btnFourth: Button
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -27,9 +26,6 @@ class MainActivity : AppCompatActivity() {
         }
         btnThird.setOnClickListener {
             setIcon(ICON_COLOUR.GREEN)
-        }
-        btnFourth.setOnClickListener {
-
         }
     }
 
@@ -53,7 +49,6 @@ class MainActivity : AppCompatActivity() {
         btnFirst = findViewById(R.id.btnFirst)
         btnSecond = findViewById(R.id.btnSecond)
         btnThird = findViewById(R.id.btnThird)
-        btnFourth = findViewById(R.id.btnFourth)
     }
 
 
