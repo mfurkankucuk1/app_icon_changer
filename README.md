@@ -7,12 +7,12 @@
 
 **Disable the original activity app icon in launcher**
 
-   <activity
-            android:name=".MainActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <!--<category android:name="android.intent.category.LAUNCHER" />-->
-            </intent-filter>
-        </activity>
+   ```<activity
+         android:name=".MainActivity"
+         android:exported="true">
+         <intent-filter>
+             <action android:name="android.intent.action.MAIN" />
+             <!--<category android:name="android.intent.category.LAUNCHER" />-->
+         </intent-filter>
+   </activity>```
 
