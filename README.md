@@ -91,11 +91,9 @@
 ```
 ---
 
----
 ```
  enum class ICON_COLOUR { RED, GREEN, BLUE }
 ```
----
 
 ---
 ```
