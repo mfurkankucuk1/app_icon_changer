@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ChangeAppIcon</string>
+    <string name="first_icon">First Icon</string>
+    <string name="second_icon">Second Icon</string>
+    <string name="third_icon">Third Icon</string>
+    <string name="fourth_icon">Fourth Icon</string>
+</resources>
