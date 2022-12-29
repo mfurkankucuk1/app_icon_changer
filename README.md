@@ -67,10 +67,8 @@ First of all, the changes we need to make in the `AndroidManifet.xml` file
              <category android:name="android.intent.category.LAUNCHER" />
          </intent-filter>
      </activity-alias>
-
-     
-
 ```
+
 What we need to pay attention to here is `android:enabled="true"` in the first activity-alias tag and `android:enabled="false"` in the other added `activity-alias` tags.
 
 
