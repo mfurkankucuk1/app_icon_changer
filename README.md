@@ -1,5 +1,5 @@
 
-# Project Title
+# Dynamic App Icon Change
 
 If you want to dynamically change the icon of your application, just follow the steps below.
 
