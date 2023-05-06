@@ -102,7 +102,7 @@ What we need to pay attention to here is `android:enabled="true"` in the first a
 ```kotlin
 btnFirst.setOnClickListener {
         setIcon(ICON_COLOUR.BLUE)
-        }
+        
         btnSecond.setOnClickListener {
             setIcon(ICON_COLOUR.RED)
         }
