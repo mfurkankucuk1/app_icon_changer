@@ -100,16 +100,16 @@ What we need to pay attention to here is `android:enabled="true"` in the first a
 ## Button Click
 
 ```kotlin
-btnFirst.setOnClickListener {
+        btnFirst.setOnClickListener {
         setIcon(ICON_COLOUR.BLUE)
-        
+        }
         btnSecond.setOnClickListener {
             setIcon(ICON_COLOUR.RED)
         }
         btnThird.setOnClickListener {
             setIcon(ICON_COLOUR.GREEN)
         }
-   }
+   
 ```
 ## 🔗 Links
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammed-furkan-kucuk-40897111a/)
